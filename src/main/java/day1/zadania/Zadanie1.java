@@ -10,7 +10,7 @@ public class Zadanie1 {
      * to jest komentarz do nowej metody
      */
     public static void nowaMetoda() {
-        //TODO: ljfdslkfjslkdfjlsjflsjfslkd
+        //TODO: wypełnić metodę
         System.out.println("Ania\tBartek\tKasia");
     }
 }

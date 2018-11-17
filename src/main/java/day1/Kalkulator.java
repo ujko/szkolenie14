@@ -46,7 +46,7 @@ public class Kalkulator {
                 break;
             case "/":
                 result = (double)a/b;
-                System.out.println("dzielenie " + result);
+                System.out.println("divide " + result);
                 break;
             case "*":
                 result = a * b;

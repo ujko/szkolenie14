@@ -5,8 +5,7 @@ import day1.zadania.Zadanie1;
 public class Hello {
 
     public static void main(String[] args) {
-        System.out.println("Witaljceikkfagjlkl");
+        System.out.println("Hello world ");
 
-        Zadanie1.nowaMetoda();
     }
 }

@@ -4,7 +4,7 @@ public class Zmienne {
     public static final int DRUGA_ZMIENNA = 4;
 
     public static void main(String[] args) {
-        method3();
+        method4();
     }
 
     public static void method1() {
@@ -77,6 +77,16 @@ public class Zmienne {
         System.out.println((double) a / b);
         System.out.println(a % b);
 
+    }
+
+    public static void method4() {
+        int a = 7;
+        int b = a;
+
+        b = b + 5;
+
+        System.out.println(a);
+        System.out.println(b);
     }
 
 }
