@@ -7,7 +7,22 @@ public class ShortIf {
 //        method1();
 //        int a = 5;
 //        bad(a>4?"a":"b");
-        switchTest("");
+//        switchTest("");
+    }
+
+    private static void test() {
+        int a = 6;
+        boolean c = a > 10;
+
+        if(c) {
+            System.out.println(">");
+        }else {
+            System.out.println("<");
+        }
+        System.out.println(a > 10 ? "<": ">");
+
+
+
     }
 
     private static void method1() {
