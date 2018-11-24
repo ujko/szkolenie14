@@ -1,5 +1,7 @@
 package day3;
 
+import java.io.Serializable;
+
 public class Car {
 
     private String name;
