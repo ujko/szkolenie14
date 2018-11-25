@@ -28,13 +28,13 @@ public class Lotto {
     }
 
     private boolean checkExist(int a) {
-        for (int b : tabela) {
-            if (b == a) {
-                System.out.println("powtorzona cyfra " + a);
-                return true;
+            for (int b : tabela) {
+                if (b == a) {
+                    System.out.println("powtorzona cyfra " + a);
+                    return true;
+                }
             }
-        }
-        return false;
+            return false;
     }
 
     public static void main(String[] args) {

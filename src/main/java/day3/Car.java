@@ -2,7 +2,7 @@ package day3;
 
 import java.io.Serializable;
 
-public class Car {
+public class Car implements Serializable{
 
     private String name;
     private String color;

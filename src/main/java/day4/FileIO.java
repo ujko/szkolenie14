@@ -26,9 +26,7 @@ public class FileIO {
             isr.close();
             is.close();
         }
-
     }
-
 
     private String readTextFromFile1() throws IOException {
         File file = new File(txtFile);
@@ -47,7 +45,6 @@ public class FileIO {
         }
         return result;
     }
-
 
     private String readTextFromFile2() throws IOException {
         File file = new File(txtFile);
