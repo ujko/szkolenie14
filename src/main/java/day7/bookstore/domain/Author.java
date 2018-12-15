@@ -1,6 +1,8 @@
 package day7.bookstore.domain;
 
-public class Author {
+import java.io.Serializable;
+
+public class Author implements Serializable {
     private int id;
     private String name;
     private String lastName;

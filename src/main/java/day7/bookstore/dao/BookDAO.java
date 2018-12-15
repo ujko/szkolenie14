@@ -23,4 +23,5 @@ public interface BookDAO {
     void editBook(int id, Book book);
 
     List<Book> getAllBooks();
+
 }
